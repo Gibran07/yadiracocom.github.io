@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        
+           <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Inicio</title>
+             <link rel="stylesheet" href="css\estilo3.css">
+<style>
+p{
+text-align: justify;
+}
+</style>
+         </head>
+        <body>
+    
+        
+        <h1>¿Quiénes somos?</h1>
+
+       <!-- Slider de imágenes -->
+        <div class="slider">
+        <img src="img\logo-cbta186.png" class="slide">
+        <center><img src="img\Imagen2.jpg" width="350"heigth="400" alt="img\Imagen2.jpg"class="slide"></center>
+        <img src="img\logo-cbta186.png"  class="slide">
+    </div>
+<script>
+        // Código para hacer que las imágenes cambien automáticamente
+        let index = 0;
+        function cambiarImagen() {
+            let slides = document.querySelectorAll(".slide");
+            slides.forEach((img, i) => {
+                img.style.display = i === index ? "block" : "none";
+            });
+            index = (index + 1) % slides.length;
+        }
+        setInterval(cambiarImagen, 3000); // Cambia cada 3 segundos
+        cambiarImagen();
+    </script>
+   
+
+  <!-- Párrafo de presentación -->
+    <section>
+        <p>Somos alumnos del CBTA N° 186, ubicado en Kantunilkin, Municipio de Lázaro Cárdenas, Quintana Roo. 
+        Nuestros nombres son Yamilex Ku Chable  y Yadira Jazmin Cocom Poot actualmente estamos cursando el 6to semestre de la carrera de Ofimática con el Docente Ted Diego Tomás Canul Cauich.  
+        Este sitio web forma parte del proyecto final para evaluar el Primer Parcial en el SM 5.1 "Gestiona información mediante el uso de plataformas digitales" empleando lenguaje HTML.</p>
+    </section>

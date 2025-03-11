@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Estilo del header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* Estilo del slider */
+.slider {
+    width: 80%;
+    margin: 20px auto;
+overflow: hidden;
+    max-width: 600px;
+}
+
+
+}
+
+.slide {
+    width: 100%;
+    display: none; /* Oculta todas las imágenes excepto la activa */
+}
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* Hace que el contenido principal ocupe todo el espacio disponible */
+section {
+    flex: 1;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hace que el contenido principal ocupe todo el espacio disponible */
+section {
+ flex: 1;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    background-color: #E6CCE6; /* Morado pastel */
+    background-image: url('../img/hojas-fondo.png'); /* Imagen de hojas */
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+background-repeat: no-repeat;
+    background-attachment: fixed; /* Fija el fondo al hacer scroll */
+    font-family: Arial, sans-serif; /* Fuente general */
+}
+
+
